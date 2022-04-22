@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /* overflow-x: hidden; */
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  background-color: #97b8da;
+  position: fixed;
+  z-index: 1;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+  position: relative;
+}
+
+nav ul li a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 5px;
+  transition-duration: 1.5s;
+}
+
+nav ul li a:hover {
+  background: #659dd6;
+}
+
+.active {
+  background: #659dd6;
+}
+
+.hero-image {
+  width: 100%;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profileContent {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.profileImage {
+  width: 250px;
+  position: relative;
+  height: 250px;
+  top: 200px;
+  border-radius: 300px;
+}
+
+.profileText {
+  display: flex;
+  justify-content: center;
+  top: 205px;
+  color: red;
+  position: relative;
+}
+
+.cta-button {
+  background-color: #97b8da;
+  padding: 7px;
+  border-radius: 3px;
+  transition-duration: 1.5s;
+  position: relative;
+  margin: auto;
+  width: 135px;
+  top: 212px;
+  text-align: center;
+}
+
+.cta-button a {
+  text-decoration: none;
+  color: black;
+}
+
+.cta-button:hover {
+  background-color: #659dd6;
+}
+
+.heading-one {
+  text-align: center;
+  padding: 20px;
+}
+
+.card-detail-1 {
+  background: #e5dede;
+  padding-top: 8px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.projectCard img {
+  width: 100%;
+  height: 100%;
+}
+
+.projectCardContainer {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px;
+}
+
+.propsName {
+  font-weight: bold;
+}
+
+.viewStyle {
+  text-decoration: none;
+  color: #0172e5;
+}
+
+/* ABOUT SECTION */
+
+.aboutHeading {
+  text-align: center;
+  padding: 20px;
+}
+
+.headshotImage {
+  width: 250px;
+  height: 250px;
+  border-radius: 300px;
+}
+
+.aboutImageText {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  grid-gap: 25px;
+  justify-content: center;
+}
+
+.aboutPText {
+  font-size: 20px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding: 5px;
+}
+
+.aboutH1Text {
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.aboutText {
+  border: 1px solid rgba(var(--ca6, 219, 219, 219), 1);
+  width: 50%;
+  padding: 5px;
+  background-color: #97b8da;
+  border-radius: 10px;
+}
+
+/* CONTACT  */
+
+.contacts {
+  /* This is the H1 of contact page */
+  padding: 20px;
+  text-align: center;
+}
+
+/* .contact-form {
+  
+  display: flex;
+  justify-content: center;
+} */
+
+.contactPage {
+  height: 100vh;
+}
+
+/* .inputInfo {
+  height: 45px;
+  width: 345px;
+  padding-left: 8px;
+} */
+
+.field{
+  height:45px;
+  width: 345px;
+  padding-left:8px;
+  margin-bottom: 1rem;
+}
+
+.contact-details{
+  display: grid;
+  justify-content: center;
+}
+
+.textAreaInfo {
+  width: 345px;
+  height: 150px;
+  padding: 8px;
+}
+
+.form-wrapper {
+  padding: 45px;
+  max-width: 450px;
+  box-shadow: 0 20px 50px rgb(0 0 0 / 6%);
+  margin: 0 auto;
+  background-color: #97b8da;
+  border-radius: 5px;
+  margin-top:5rem;
+}
+
+.contact-h2{
+  margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.contact-button {
+  color: black;
+  transition-duration: 0.5s;
+  border-radius: 4px;
+  padding: 6px 15px;
+  margin-top: 1rem;
+  width: 64px;
+}
+
+.contact-button:hover {
+  background: #659dd6;
+}
+
+footer {
+  padding: 10px;
+  position: sticky;
+  top: 100%;
+  width: 100%;
+  height: 150px;
+  background-color: #97b8da;
+  text-align: center;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.footerText {
+  padding: 10px;
+}
