@@ -20,6 +20,14 @@ header {
   z-index: 1;
 }
 
+.logo {
+  height: 50px;
+  left: 15px;
+  position: fixed;
+  top: 4px;
+  width: auto;
+}
+
 nav {
   float: right;
 }
@@ -281,10 +289,14 @@ footer {
   }
 
   nav ul li a {
-    font-size: 13px;
+    font-size: 10px;
   }
 
   nav ul li {
-    left: 8px;
+    left: 10px;
+  }
+
+  .logo {
+    left:4px;
   }
 }
