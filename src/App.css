@@ -281,10 +281,10 @@ footer {
   }
 
   nav ul li a {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   nav ul li {
-    left: -15px;
+    left: 8px;
   }
 }
