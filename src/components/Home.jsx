@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div id="Home" className="hero-image" style={hero}>
       <div className="profileContent">
-        <img className="profileImage" src={avatar} />
+        <img className="profileImage" src={avatar} alt="avatar"/>
       </div>
       <div className="cta-button">
         <a href="/#Projects">View My Projects</a>

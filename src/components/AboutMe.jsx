@@ -8,7 +8,7 @@ const AboutMe = () => {
         <h1 style={{marginTop:"5rem"}}>About</h1>
       </div>
       <div className="aboutImageText">
-        <img className="headshotImage" src={avatar} />
+        <img className="headshotImage" src={avatar} alt="avatar"/>
         <div className="aboutText">
           <h1 className="aboutH1Text">Welcome!</h1>
           <p className="aboutPText">
