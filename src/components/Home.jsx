@@ -9,9 +9,17 @@ const Home = () => {
       <div className="profileContent">
         <img className="profileImage" src={avatar} alt="avatar"/>
       </div>
+      
+      <div className="resumeView">
       <div className="cta-button">
         <a href="/#Projects">View My Projects</a>
       </div>
+      <div className="cta-button">
+      <a href="/resume.pdf" download="patrickpangresume">View Resume</a>
+      </div>
+      </div>
+      
+      
     </div>
   );
 };

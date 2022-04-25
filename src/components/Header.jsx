@@ -1,11 +1,15 @@
 import React, { useEffect } from "react";
+import Link from "react-router-dom";
 
 const Header = () => {
-
   return (
     <div>
       <header>
-<img src="assets/images/portfolioLogo.png" alt="logo" className="logo"/>
+        <img
+          src="assets/images/portfolioLogo.png"
+          alt="logo"
+          className="logo"
+        />
 
         <nav id="main-nav">
           <ul>

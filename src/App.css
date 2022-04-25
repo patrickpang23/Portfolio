@@ -89,13 +89,18 @@ nav ul li a:hover {
   position: relative;
 }
 
+.resumeView {
+  display: flex;
+  justify-content: center;
+}
+
 .cta-button {
   background-color: #97b8da;
   padding: 7px;
   border-radius: 3px;
   transition-duration: 1.5s;
   position: relative;
-  margin: auto;
+  margin: 10px;
   width: 135px;
   top: 212px;
   text-align: center;
@@ -297,6 +302,6 @@ footer {
   }
 
   .logo {
-    left:4px;
+    left: 4px;
   }
 }
