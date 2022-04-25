@@ -280,7 +280,11 @@ footer {
     max-height: 520px;
   }
 
+  nav ul li a {
+    font-size: 12px;
+  }
+
   nav ul li {
-    left: 17px;
+    left: -15px;
   }
 }
