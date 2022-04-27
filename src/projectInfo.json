@@ -25,5 +25,12 @@
     "image":"assets/images/gateway.png",
     "name": "Gateway Redesign",
     "url": "https://gateway-project.patrickpang1.repl.co/index.html"
+  },
+
+  {
+    "id": 5,
+    "image":"assets/images/HOPE.png",
+    "name": "HOPE Hack",
+    "url": "https://edwine97.github.io/hopehacks-g3/index.html"
   }
 ]
