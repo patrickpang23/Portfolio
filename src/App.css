@@ -203,7 +203,6 @@ nav ul li a:hover {
   background: #97b8da;
   border-radius: 2rem;
   padding: 2.4rem 5rem;
-
 }
 
 .skillsChild h3 {
@@ -359,7 +358,7 @@ footer {
   }
 
   nav ul li {
-    left: 10px;
+    left: 7px;
   }
 
   .logo {
