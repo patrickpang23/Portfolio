@@ -313,6 +313,7 @@ img {
   transition-duration: 0.5s;
   border-radius: 4px;
   padding: 6px 15px;
+  background-color: white;
   margin-top: 1rem;
   width: 64px;
 }
@@ -358,7 +359,7 @@ footer {
   }
 
   nav ul li {
-    left: 7px;
+    padding-left: 0;
   }
 
   .logo {
