@@ -360,6 +360,7 @@ footer {
 
   nav ul li {
     padding-left: 0;
+    left: 1rem;
   }
 
   .logo {
