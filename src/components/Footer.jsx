@@ -1,28 +1,36 @@
 import React from "react";
+import { FaEnvelope } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer>
-      <a href="mailto:patrickpang23@gmail.com" aria-label="envelope">
-        <i className="fab fa fa-envelope"></i>
+      <a
+        className="footerIcon"
+        href="mailto:patrickpang23@gmail.com"
+        aria-label="envelope"
+      >
+        <FaEnvelope />
       </a>
       &nbsp; |
       <a
+        className="footerIcon"
         href="https://www.linkedin.com/in/patricktingpang/"
         aria-label="linkedin"
         target="_blank"
         rel="noreferrer"
       >
-        <i className="fab fa-linkedin"></i>
+        <FaLinkedin />
       </a>
       &nbsp;|
-      <a
+      <a className="footerIcon"
         href="https://github.com/patrickpang23"
         aria-label="github"
         target="_blank"
         rel="noreferrer"
       >
-        <i className="fab fa-github"></i>
+        <FaGithub />
       </a>
       <p className="footerText">Designed and Developed by Patrick Pang</p>
       <p>&copy; 2022 Patrick Pang, All Rights Reserved</p>

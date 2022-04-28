@@ -339,6 +339,10 @@ footer {
   padding: 10px;
 }
 
+.footerIcon {
+  color: black;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 390px) {
