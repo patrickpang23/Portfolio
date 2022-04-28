@@ -25,7 +25,10 @@ const Contact = () => {
 
   return (
     <>
-      <main id="Contact" className="contactPage">
+    <div id="Contact" >
+        <h1 style={{marginTop:"1rem", color:"transparent"}}>About</h1>
+      </div>
+      <main  className="contactPage">
         <form method="POST" className="form-wrapper" action="/contact">
           <div className="contact-details">
             <h2 className="contact-h2">Contact</h2>
