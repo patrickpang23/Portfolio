@@ -323,6 +323,13 @@ img {
   background: #659dd6;
 }
 
+.send {
+  background-color: transparent;
+  border: none;
+}
+
+/* FOOTER CSS */
+
 footer {
   padding: 10px;
   position: sticky;
