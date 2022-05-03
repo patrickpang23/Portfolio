@@ -18,7 +18,7 @@ const Contact = () => {
   return (
     <>
     <div id="Contact" >
-        <h1 style={{marginTop:"1rem", color:"transparent"}}>About</h1>
+        <h1 style={{marginTop:"1rem", color:"transparent"}}></h1>
       </div>
       <main  className="contactPage">
         <form onSubmit={sendEmail} method="POST" className="form-wrapper" action="/contact">
